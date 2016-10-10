@@ -1,6 +1,6 @@
-connect: connect.o
-	gcc connect.o -o connect
-connect.o: connect.c
-	gcc connect.c -c
+receive: receive.o
+	gcc receive.o -o receive
+receive.o: receive.c
+	gcc receive.c -c
 clean:
-	rm -rf connect.o
+	rm -rf receive.o
